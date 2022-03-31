@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Portfólio Work
 exposing my work
 Expondo meu trabalho
@@ -12,3 +13,10 @@ O controle das tarefas desse projeto será ealizado no GitHub
 :up: atualização
 :beatle: correção de bug
 :checkered_flaf: release
+=======
+# Primeiro Portfólio
+
+## Tarefas
+
+###O controle das tarefas desse projeto será realizado no GitHub
+>>>>>>> 092324b2111fd8a0ff76191976e4acbf6feaca45
