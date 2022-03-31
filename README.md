@@ -1,7 +1,5 @@
-# firstPortfolIOwork
-exposing my work
-Expondo meu trabalho
+# Primeiro Portfólio
 
 ## Tarefas
 
-O controle das tarefas desse projeto será ealizado no GitHub
+###O controle das tarefas desse projeto será realizado no GitHub
