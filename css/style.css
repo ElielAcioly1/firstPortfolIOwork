@@ -15,7 +15,6 @@
 }
 
 .hamburguer{
-    background-color: red;
     width: 2rem;
     height: 2rem;
     position: fixed;
@@ -25,18 +24,19 @@
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    cursor:pointer;
+    cursor: pointer;
 }
 
-.show-menu.hamburguer{
+.show-menu .hamburguer{
     right: 16rem;
 }
 
 .line{
     width: 100%;
-    height: .1rem;
+    height: 0.1rem;
     background-color: #fff;
     box-shadow: 0.1rem 0.1rem 1px #000;
+    transition: transform 1s;
 }
 
 header{
@@ -103,7 +103,7 @@ header{
     color: #000;
     text-transform:uppercase;
     letter-spacing:.1rem;
-    background: #00bf8f;  /* fallback for old browsers */
+    background: #00bf8f; 
     background: -webkit-linear-gradient(to right, #001510, #00bf8f); 
     background: linear-gradient(to right, #001510, #00bf8f);
     padding: 1rem 3rem;
@@ -144,8 +144,10 @@ header{
     position: fixed;
     top: 0;
     right: -20rem;
+    transition: all 1s;
+    z-index: 80;
 }
-.show-menu.sidebar{
+.show-menu .sidebar{
     right: 0;
 }
 
