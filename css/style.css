@@ -12,6 +12,7 @@
     --font-primary: "Baloo Da 2", serif;
     --font-secundary: "Josefin Slab", serif;
     --font-action:  "Mulish", serif;
+
 }
 
 .hamburguer{
@@ -144,7 +145,7 @@ header{
     position: fixed;
     top: 0;
     right: -20rem;
-    transition: all 1s;
+    transition: all 0.3s;
     z-index: 80;
 }
 .show-menu .sidebar{
@@ -183,7 +184,7 @@ header{
     justify-content: space-evenly;
 }
 .social-media i{
-    background-color: rgb(3, 65, 50);
+    background-color: #00bf8f;
     color: rgba(255, 255, 255, 1);
     height: 2.5rem;
     width:2.5rem;
