@@ -201,7 +201,7 @@ header{
 .conhecimentos{
     display: grid;
     grid-template-columns: repeat(16, 1fr);
-    grid-template-rows: repeat(6, 6rem);
+    grid-template-rows: repeat(6, 8rem);
 }
 
 .conhecimento:nth-child(1) {

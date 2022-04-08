@@ -26,5 +26,5 @@ function atualizarPreco(){
     let taxaUrgencia = 1 - prazo*0.1;
     preco *= 1 + taxaUrgencia
    
-    document.querySelector("#preco").innerHTML = `R$ ${preco.toFixed(2)}`
+    document.querySelector("#preco").innerHTML = ("R$: "+preco.toFixed(2))
 }
